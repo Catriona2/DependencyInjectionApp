@@ -6,6 +6,13 @@ import services.NotificationService;
 public class NotificationManager {
     private final NotificationService notificationService;
 
+    {
+        
+    }
+    static{
+
+    }
+
 
     public NotificationManager(NotificationService notificationService) {
         this.notificationService = notificationService;
