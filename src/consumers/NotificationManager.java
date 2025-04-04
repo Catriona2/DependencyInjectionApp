@@ -11,7 +11,7 @@ public class NotificationManager {
         this.notificationService = notificationService;
     }
 
-    public void notifyUser(String message) {
-        notificationService.sendNotification(message);
+    public void notifyUser(  String name,String message) {
+        notificationService.sendNotification(name, message);
     }
 }
