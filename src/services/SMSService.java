@@ -1,6 +1,4 @@
 package services;
-
-
 public class SMSService implements NotificationService {
     @Override
     public void sendNotification( String name,String message) {
